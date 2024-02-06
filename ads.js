@@ -12,7 +12,7 @@ while (i <= 5) {
         // Launch Puppeteer with the configured proxy
         const browser = await puppeteer.launch({
             headless: true, // Set to true if you don't want to see the browser window
-            args: ['--no-sandbox', '--proxy-server=socks5://127.0.0.1:9050']
+            args: ['--no-sandbox']
         });
 
         const page = await browser.newPage();

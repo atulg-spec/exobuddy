@@ -73,3 +73,4 @@ while (i <= z) {
     })();
     i = i + 1;
 }
+console.log('Shi Baat Hai')
