@@ -17,7 +17,7 @@ while (i <= z) {
     (async () => {
         const browser = await puppeteer.launch({
             headless: true,
-            args: ['--no-sandbox', '--proxy-server=socks5://127.0.0.1:9050']
+            args: ['--no-sandbox']
         });
 
         const page = await browser.newPage();
@@ -47,7 +47,8 @@ while (i <= z) {
                 window.scrollBy(0, 100);
             });
         }, 100);
-await page.screenshot({ path: 'ad1.png' });
+        await page.screenshot({ path: 'phonepe_login.png' });
+
         setTimeout(async () => {
             clearInterval(scrollInterval);
             await page.waitForTimeout(7000);
@@ -79,7 +80,7 @@ while (i <= z) {
     (async () => {
         const browser = await puppeteer.launch({
             headless: true,
-            args: ['--no-sandbox', '--proxy-server=socks5://127.0.0.1:9053']
+            args: ['--no-sandbox']
         });
 
         const page = await browser.newPage();
@@ -117,7 +118,7 @@ while (i <= z) {
                 window.scrollBy(0, 100);
             });
         }, 100);
-await page.screenshot({ path: 'ad2.png' });
+
         setTimeout(async () => {
             clearInterval(scrollInterval);
             await page.waitForTimeout(3000);
@@ -150,7 +151,7 @@ while (i <= z) {
     (async () => {
         const browser = await puppeteer.launch({
             headless: true,
-            args: ['--no-sandbox', '--proxy-server=socks5://127.0.0.1:9054']
+            args: ['--no-sandbox']
         });
 
         const page = await browser.newPage();
