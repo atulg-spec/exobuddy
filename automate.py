@@ -35,7 +35,7 @@ sender_email = 'vediccomputer51@gmail.com'
 sender_password = 'buknewxfyfchumlq'
 recipient_email = 'atulg0736@gmail.com'
 subject = 'Yo'
-message = 'All Fine ! Version : 1.1'
+message = 'All Fine ! Version : 1'
 
 
 
@@ -50,7 +50,7 @@ time.sleep(5)
 a = generate_random_number()
 time.sleep(a)
 print(a)
-os.system('node /root/superWebScraping/ads11.js')
+os.system('node /root/superWebScraping/ads1.js')
 send_email(sender_email, sender_password, recipient_email, subject, message)
 
 
