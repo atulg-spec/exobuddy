@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
-let urllist = ['https://onstock.in/startmarket', 'https://onstock.in/whatsapp', 'https://onstock.in/email', 'https://onstock.in/startmarket']
+let urllist = ['https://startmarket.in/post/elevate-your-digital-strategy-with-startmarketin#blog', 'https://startmarket.in/post/the-power-of-whatsapp-marketing-generating-leads-and-emerging-trends#blog', 'https://startmarket.in/post/free-bulk-email-service-and-subscribers-with-target-audience#blog', 'https://startmarket.in/post/bulk-whatsapp-sender-unlock-the-power-of-personalized-messaging#blog']
 puppeteer.use(StealthPlugin());
 function getRandomValue() {
     return Math.floor(Math.random() * 3);
