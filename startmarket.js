@@ -26,7 +26,7 @@ async function fetchDataAndInteract(proxy) {
             (async () => {
                 const browser = await puppeteer.launch({
                     headless: true,
-                    args: ['--no-sandbox', proxy]
+                    args: ['--no-sandbox',proxy]
                 });
 
                 const page = await browser.newPage();
@@ -67,13 +67,13 @@ async function fetchDataAndInteract(proxy) {
 
                     await page.evaluate(() => {
                         // Find the first anchor tag (<a>) on the page
-                        const firstAnchor = document.querySelector('.ads');
+                        // const firstAnchor = document.querySelector('a');
                     
                         // Check if the anchor tag exists
-                        if (firstAnchor) {
+//                        if (firstAnchor) {
                             // Click on the first anchor tag
-                            firstAnchor.click();
-                        }
+  //                          firstAnchor.click();
+    //                    }
                     });
                     
 

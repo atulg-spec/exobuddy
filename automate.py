@@ -50,7 +50,7 @@ time.sleep(5)
 a = generate_random_number()
 time.sleep(a)
 print(a)
-os.system('node /root/superWebScraping/startmarket.js')
+os.system('node /root/exobuddy/startmarket.js')
 send_email(sender_email, sender_password, recipient_email, subject, message)
 
 
