@@ -48,7 +48,7 @@ async function fetchDataAndInteract(proxy) {
                 let url = urllist[randval];
                 console.log(url);
 
-                await page.goto(url, { waitUntil: 'domcontentloaded' });
+                await page.goto(url);
 
                 const scrollInterval = setInterval(() => {
                     page.evaluate(() => {
