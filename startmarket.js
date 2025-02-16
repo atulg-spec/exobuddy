@@ -58,7 +58,7 @@ async function fetchDataAndInteract(proxy) {
 
                 setTimeout(async () => {
                     clearInterval(scrollInterval);
-                    await page.waitForTimeout(7000);
+                    await page.waitForTimeout(120000);
 
                     if (randval % 2 == 0) {
                         console.log('Clicked On Ads');
@@ -92,5 +92,5 @@ async function fetchDataAndInteract(proxy) {
 // Call the function to fetch data and interact with the URLs
 fetchDataAndInteract('--proxy-server=socks5://127.0.0.1:9050');
 fetchDataAndInteract('--proxy-server=socks5://127.0.0.1:9053');
-fetchDataAndInteract('--proxy-server=socks5://127.0.0.1:9054');
-fetchDataAndInteract('--proxy-server=socks5://127.0.0.1:9053');
+//fetchDataAndInteract('--proxy-server=socks5://127.0.0.1:9054');
+//fetchDataAndInteract('--proxy-server=socks5://127.0.0.1:9053');

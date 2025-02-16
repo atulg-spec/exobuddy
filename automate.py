@@ -31,10 +31,10 @@ def send_email(sender_email, sender_password, recipient_email, subject, message)
     server.quit()
 
 # Example usage
-sender_email = 'vediccomputer51@gmail.com'
-sender_password = 'buknewxfyfchumlq'
+sender_email = 'seoworks065@gmail.com'
+sender_password = 'wiiw nuat vakd vmal'
 recipient_email = 'atulg0736@gmail.com'
-subject = 'Yo'
+subject = 'Exobuddy- Buddy 1'
 message = 'All Fine ! Version : Advanced'
 
 
